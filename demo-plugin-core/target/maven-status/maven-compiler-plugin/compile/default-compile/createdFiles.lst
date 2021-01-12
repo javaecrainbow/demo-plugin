@@ -1,6 +1,0 @@
-com\salk\plugin\register\JarHandler.class
-com\salk\plugin\check\InterfaceCheck.class
-com\salk\plugin\check\InvalidCheck.class
-com\salk\plugin\bean\PluginBeanFactory.class
-com\salk\plugin\register\FileHandler.class
-com\salk\plugin\classloader\PluginClassLoader.class
