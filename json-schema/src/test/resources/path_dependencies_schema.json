@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "packageId": {
+            "type": "string",
+            "description": "包id"
+        },
+        "sysInfo": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "[0-9]*",
+                    "description": "数值编号"
+                }
+            }
+        },
+        "has_sys": {
+            "type": "string"
+        }
+      },
+    "path_dependencies": {
+        "has_sys":["#/sysInfo/id"]
+    },
+    "dependencies":{
+        "has_sys":["packageId"]
+    }
+}
